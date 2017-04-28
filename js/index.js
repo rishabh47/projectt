@@ -22,7 +22,7 @@ function fillProduct(response) {
 				var qtyTag = $('<div class="quantity hidden"></div>').html(qty);
 				var sizeTag = $('<div class="size hidden"></div>').html(size);
 				var soldTag = $('<div class="sold-by hidden"></div>').html(sold);
-				var cart = "<i class='fa fa-shopping-cart fa-2x' aria-hidden='true' style = 'cursor: pointer;'></i>";
+				var cart = $('<i class="fa fa-shopping-cart fa-2x" aria-hidden="true" style = "cursor: pointer;"></i>');
 				var productContainer = $('<div class="product-container col-md-3 col-md-offset-1 "></div>').append(imageTag,productNameTag,brandTag,priceTag,descTag,qtyTag,sizeTag,soldTag,cart);
 				$('.product-container-parent').append(productContainer);
 
