@@ -1,0 +1,299 @@
+    .sold{
+        padding-top: 5px;
+    }
+    .sold-byy{
+        margin-top: 30px
+    }
+    .quantity{
+        padding-top: 20px;
+    }
+    .size{
+        padding-top: 20px;
+    }
+    .price{
+        padding-top: 50px;
+    }
+    .headers{
+        padding-top: 40px;
+        padding-right: 0px;
+    }
+    .content{
+        padding-top: 65px;
+        font-size: 18px;
+    }
+    .description{
+        padding-top: 20px;
+    }
+    .abcd{
+        margin-top: 50px;
+    }
+/*HEADER-STYLESHEET*/
+.head{
+    top: 0;
+    padding: 0;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background: white;  
+}
+.header-1 {
+    height: 65px;
+    border-bottom: 1px solid #9E9E9E;
+}
+.head img{
+    margin-left: 10px;
+}
+.name-of-site {
+    font-family: 'Cinzel', serif;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    background-color: #3E50B4;
+    margin-top: 3px;
+}
+.cart-icon {
+    float: right;
+    color: #E65100;
+    margin-right: 50px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.head hr{
+    margin: 0px;
+}
+
+.header-2 {
+    height: 50px;
+    border-bottom: 1px solid #9E9E9E;
+}
+.header-content-2{
+    margin:7px;
+}
+.menu-icon{
+    color: black;
+    margin-left: 15px;
+}
+.nav-icon {
+    padding-right: 10px;
+}
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    margin-left: 20px;
+}
+
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+#main {
+    transition: margin-left .5s;
+                    
+}
+.form-control {
+    border-radius: 15px;
+    border: 2px solid #3E50B4;
+                    
+}
+
+.header-2 button{
+    background-color: #E65100;
+    color: white;
+    font-size: 15px;
+    padding: 5px 20px;
+    margin: 0 5px;
+}
+
+/*HEADER-STYLESHEET Ends*/
+
+
+
+
+
+.pagination{
+    padding-left: 40px;
+}
+body{
+    overflow-x: hidden;
+}
+ .Table
+    {
+        display: table;
+    }
+    .Heading
+    {
+        display: table-row;
+        font-weight: bold;
+        text-align: center;
+    }
+    .Row
+    {
+        display: table-row;
+    }
+    .Cell
+    {
+        display: table-cell;
+        border: solid;
+        border-width: thin;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    #address{
+        height: 100px;
+        text-align: top;
+    }
+    .modal-title{
+        text-align: center;
+    }
+    .tble{
+        width: 550px;
+    }
+    .pay-button{
+        margin-left: 30px;
+    }
+    .order-place{
+        text-align: center;
+    }
+    .order-place{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .search-box-conatiner{
+        margin-top: 10px;
+    }
+    .search-sell-button{
+        margin-top: 5px;
+    }
+
+
+
+.page-content{
+background: url("https://s-media-cache-ak0.pinimg.com/originals/02/e1/b8/02e1b8bd40491ceb35b42665b8385fc4.jpg");
+background-size: cover;
+height: 528px;
+}
+.page-heading{
+    margin-top: 64px;
+    text-align: center;
+    font-size: 48px;
+}
+.page-description{
+    margin-top: 48px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    color: black;
+    padding-left: 20%;
+}
+
+.add{
+        width: 200px;
+    margin-right: 199px;
+}
+.choose{
+    margin: 20px 0px;
+}
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+     height: 480px;
+width: 1000px;
+  }
+
+.img-carousel{
+margin-top: 120px;
+height: 480px;
+width: 1000px;
+margin-bottom: 30px;
+}
+
+.sub-heading{
+    margin-top: 32px;
+    font-size: 28px;
+}
+
+.page-heading{
+    margin-top: 30px;
+}
+
+.icon-container{
+    margin-top: 24px;
+    padding-left: 40px;
+}
+
+#name-heading{
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-left: 65px;
+    padding-top: 30px;
+}
+#img-product{
+    padding-left: 120px;
+    padding-top: 50px;
+}
+.fb-meta{
+    padding-top: 100px;
+}
+
+/* DATA STYLESHEET */
+
+.product-container-parent {
+    margin-top:100px;
+}
+.product-container {
+    height : 420px;
+    margin: 30px 40px;
+    -webkit-box-shadow: 0px 0px 8px 6px rgba(0,0,0,0.39);
+    -moz-box-shadow: 0px 0px 8px 6px rgba(0,0,0,0.39);
+    box-shadow: 0px 0px 8px 6px rgba(0,0,0,0.39);
+    width: 300px;
+    text-align: center;
+}
+.product-container img{
+    margin-top: 20px;
+    height: 300px;
+    width: 250px;
+    border: 2px solid #3E50B4;
+    cursor: pointer;
+}
+.product-name {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Cinzel', serif;
+    padding: 5px;
+    cursor: pointer;
+}
+.product-brand {
+    font-size: 16px;
+    font-family: 'Cinzel', serif;
+    padding-bottom: 7px;
+    cursor: pointer;
+}
+

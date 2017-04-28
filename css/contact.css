@@ -1,0 +1,45 @@
+/*contact us stylesheet*/
+.contact{
+	background-image: url("contact-image.jpg");
+	background-size:cover;
+	color: black;
+	margin-top: 120px;
+	
+}
+.contact h1{
+	text-align: center;
+	font-family: 'Playfair Display SC', serif;
+	
+}
+.left-part{
+	margin-left:320px;
+}
+.right-part{
+	
+	margin-left: 80px;
+}
+.both-parts{
+	margin-top: 20px;
+}
+.both-parts h2{
+	font-family: 'Cinzel', serif;
+	font-size: 25px;
+}
+.both-parts span{
+	font-family: 'Rubik', sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+}
+.social-media-icons {
+	margin-left: 30px;
+	padding: 10px;
+	cursor: pointer;
+}
+.social-media-icons i:hover{
+	color: blue;
+}
+#map {
+        height: 250px;
+        width: 420px;
+		margin: 20px 0;
+}

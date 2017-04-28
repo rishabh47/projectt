@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Online Shopping Site - Shop for Men, Women &amp; Kids Fashion - Myntra</title>
+		<link rel="icon" href="https://assets.materialup.com/uploads/951ea858-5d24-4aa6-8408-53da9774ccfb/preview" type="image/x-icon">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Slabo+27px|Ubuntu|Cinzel|Playfair+Display+SC|Rubik" rel="stylesheet">
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+		 integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+		 crossorigin="anonymous"></script>
+		     <script async defer
+    		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDYMpAUibhMihF1pLD-zbHbWXepnd69jss&callback=initMap">
+    		</script>
+		 <meta charset="utf-8">
+		 <script src="js/index.js" ></script>
+ 		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<div class = "container-fluid head">
+			<div class = "row header-1">
+				<div class = "header-content-1">
+					<div class = "col-md-2 logo"><a href = "#"><img class="logo" height="60px" width="60px;" href="#" src="https://assets.materialup.com/uploads/951ea858-5d24-4aa6-8408-53da9774ccfb/preview"></a></div>
+					<div class= "col-md-3"></div>
+					<div class = "col-md-2 name-of-site">MYNTRA</div>
+					<div class= "col-md-3"></div>
+					<div class = "col-md-2">
+						<span class = "cart-icon">
+							<i class="fa fa-shopping-cart fa-3x" aria-hidden="true" data-toggle="modal" data-target="#myModal"></i>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class = "row header-2">
+				<div class = "header-content-2">
+					<div class = "col-md-2">
+						<div id="mySidenav" class="sidenav">
+							<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+							<a href="index.html"><i class="fa fa-home nav-icon" aria-hidden="true"></i>Home</a>
+							<a href="index.html">All</a>
+							<a class="men">Men's</a>
+							<a class="women">Women's</a>
+							<a class="Kid">kids</a>
+							<a data-toggle="modal" data-target="#myModal">Cart</a>
+							<a href="about.html">About us</a>
+							<a href="contact.html">Contact us</a>
+						</div>
+						<span class="menu-icon" style="cursor:pointer" onclick="openNav()"><i class = "fa fa-bars fa-2x" aria-hidden="true"></i></span>
+					</div>
+					<div class = "col-md-1"></div>
+					<div class = "col-md-7">
+						<form role = "form">
+							<div class = "form-group has-feedback search-box">
+								<i class = "form-control-feedback glyphicon glyphicon-search"></i>
+								<input type = "text" class = "form-control searchh" placeholder = "search by brand name or product name" />
+							</div>
+						</form>
+					</div>
+					<div class = "col-md-2">
+						<button class="search-button" type="button">Search</button>
+			
+						<button type="button" data-toggle="modal" data-target="#sellModal">
+						  Sell
+						</button>
+					</div>
+					<div class = "col-md-2"></div>
+				</div>
+			</div>
+		</div>
+        <main class="mdl-layout__content">
+            <div class="page-conten">
+                <div class="col-md-12 page-heading">Contact Us</div>
+                <div class="col-md-6 contact-section">
+                    <div class="sub-heading">Toll Free Number</div>
+                    <div class="contact-desc">1800-9999-999</div>
+                    <div class="sub-heading">Mail Us At</div>
+                    <div class="contact-desc">itsdifferent47@gmail.com</div>
+                    <div class="sub-heading">Follow Us</div>
+                    <div class="row icon-container">
+                        <div class="col-md-offset-4 col-md-2 facebook">
+                            <img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/facebook_circle_color-256.png" width="50px">
+                        </div>
+                        <div class="col-md-2 twitter">
+                            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Twitter_bird_logo_2012.svg/220px-Twitter_bird_logo_2012.svg.png" width="50px">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 map-section">
+                    <div class="col-md-8 sub-heading">Address</div>
+                    <div class="col-md-8 contact-desc">JECRC University,IS 2036 to 2039, Tuwariyan Ki Dhani, Vidhani, Rajasthan 303905</div>
+                    <div class="col-md-12" id="map"></div>
+                </div>
+                
+            </div>
+        </main>
+        <div class="row yeah">
+			<div class="col-md-8"></div>
+			<div class="col-md-4">
+				<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&width=450&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId" width="400" height="30" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+			</div>
+		</div>
+		  <!-- Modal -->
+		<div class="modal fade" id="myModal" role="dialog">
+		    <div class="modal-dialog">
+		      <!-- Modal content-->
+			    <div class="modal-content">
+			      <div class="modal-header">
+       				 <button type="button" class="close" data-dismiss="modal">&times;</button>
+       				 <h4 class="modal-title">Cart</h4>
+     			</div>
+		        	<div class="modal-body">
+		          		<form role="form">
+			            	<div class="form-group">
+			              		<label for="Name"><span class="glyphicon glyphicon-user"></span> Name </label>
+			              		<input type="text" class="form-control" id="name" placeholder="Enter Name" required="required">
+			            	</div>
+			            	<div class="form-group">
+				              <label for="usrname"><span class="glyphicon glyphicon-user"></span> Email </label>
+				              <input type="text" class="form-control" id="usrname" placeholder="Enter email" required="required">
+				            </div>
+				            <div class="form-group">
+				              <label for="phno"><span class="glyphicon glyphicon-phone"></span> Phone Number</label>
+				              <input type="number" class="form-control" id="phno" placeholder="Enter Phone Number" required="required">
+				            </div>
+				            <div class="form-group">
+				              <label for="address"><span class="glyphicon glyphicon-user"></span> Enter Address</label>
+				              <input type="address" class="form-control" id="address" placeholder="Enter Address" required="required">
+				            </div>
+			          	</form>
+			          	<div class="container tble">          
+						  	<table class="table table-hover" rows="3">
+							    <thead>
+							      	<tr class="table-heading">
+							        	<th>Item</th>
+							        	<th>Quantity</th>
+							        	<th>Price</th>
+							        	<th>Amount</th>
+							      	</tr>
+							    </thead>
+							    <tbody>
+							     	<tr>
+							        	<td colspan="3">Amount</td>
+							        	<td class="total-amount">0</td>
+							        </tr>
+							    </tbody>
+						 	</table>
+						</div>
+		        	</div>
+		        	<div class="modal-footer">
+		          		<button type="submit" class=" cancel btn btn-default btn-default pull-right" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+		          		<button type="submit" data-toggle="modal" data-target="#payModal" class="pay-button btn btn-default btn-default pull-right"><span class="glyphicon glyphicon-phone"></span> Pay </button>
+		        	</div>
+		      	</div>
+		    </div>
+		</div> 
+		<div class="modal fade" id="payModal" role="dialog">
+		    <div class="modal-dialog1">
+		      <!-- Modal content-->
+			    <div class="modal-content">
+			     	<div class="modal-header">
+       					<button type="button" class="close" data-dismiss="modal">&times;</button>
+       				 	<h4 class="modal-title1">Order</h4>
+       				 	<p class="order-place">Your order has been placed successfully!</p>
+       				 	<button type="submit" class="Okay btn btn-default btn-default pull-right" data-dismiss="modal"><span></span>Okay</button>
+     			 	</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="sellModal" role="dialog">
+		    <div class="modal-dialog">
+		      <!-- Modal content-->
+			    <div class="modal-content">
+			      	<div class="modal-header">
+       					<button type="button" class="close" data-dismiss="modal">&times;</button>
+       				 	<h4 class="modal-title">Sell Product</h4>
+     				</div>
+		        	<div class="modal-body">
+		          		<form role="form">
+			            	<div class="form-group">
+			              		<label for="product-name">Product Name </label>
+			              		<input type="text" class="form-control" id="product-name" placeholder="Enter Product Name" required="required">
+			            	</div>
+			            	<div class="form-group">
+				              <label for="brand-name">Brand Name</label>
+				              <input type="text" class="form-control" id="brand-name" placeholder="Enter Brand Name" required="required">
+				            </div>
+				            <div class="row">
+					            <div class="form-group col-md-4">				 
+					             	<label for="gender">Gender</label>
+						            <select>
+						           	    <option> Men's</option> 
+		    							<option>Women's</option> 
+		    							<option>Kid's</option> 
+					            	</select>
+					            </div>
+					            <div class="col-md-4">
+					            	<label for="size">Size</label>
+						            <select>
+						           	    <option >Small</option> 
+		    							<option >Medium</option> 
+		    							<option >Large</option>
+		    							<option >Extra-Large</option>  
+					            	</select>
+					            </div>
+					            <div class="col-md-4">
+					            	<label for="quantity">Quantity</label>
+					 	            <select>
+						           	    <option >1</option> 
+		    							<option >2</option> 
+		    							<option >3</option>
+		    							<option >4</option>
+						           	    <option >5</option> 
+		    							<option >6</option> 
+		    							<option >7</option>
+						           	    <option >8</option> 
+		    							<option >9</option> 
+		    							<option >10</option> 
+					            	</select>
+					            </div>
+			   		        </div>
+				           	<div class="form-group">
+				              <label for="product-category">Product Ctaegory</label>
+				              <input type="text" class="form-control" id="product-category" placeholder="Enter Product Ctaegory" required="required">
+				            </div>
+				            <div class="row">
+				            	<div class="col-md-6">
+				            		<label for="price">Price</label>
+				              		<input type="text" class="form-control" id="pricee" placeholder="Enter Price" required="required">
+				            	</div>
+				            	<div class="col-md-6">
+				            		<label for="discount">Discount</label>
+				              		<input type="text" class="form-control" id="discount" placeholder="Enter Discount" required="required">
+				            	</div>
+				            </div>
+				            <div class="row">
+				            	<div class="col-md-5">
+				            		<button type="submit" class="choose">Choose Image</button>
+				            	</div>
+				            </div>
+				           	<div class="form-group">
+				              <label for="description">Desciption</label>
+				              <input type="address" class="form-control" id="address" placeholder="Enter Description" required="required">
+				            </div>
+				            <div class="form-group">
+				            	<label for="seller-name">Seller Name</label>
+				              	<input type="text" class="form-control" id="seller-name" placeholder="Enter Seller Name" required="required">
+				            </div>
+				            <div class="modal-footer">
+		          				<button type="submit" class=" cancel btn btn-default btn-default pull-right" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+		          				<button type="submit" class="selll-button btn btn-default btn-default pull-right"><span class="glyphicon glyphicon-phone"></span> Sell </button>
+		        			</div>
+			          	</form>
+			        </div>
+			    </div>
+			</div>
+		</div>	    
+   	</body>
+</html>
