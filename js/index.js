@@ -30,12 +30,12 @@ function fillProduct(response) {
 					var pn = $($(this).parent().find(".product-name")).text();
 					var p = $($(this).parent().find(".price")).text();
 					var td1 = $('<td></td>').text(pn);
-					var td2 = $('<td></td>').html("<input class='qtyy' type='text' value='1'>");
+					var td2 = $('<td></td>').html("<input id='qtyy' type='text' value='1'>");
 					var td3 = $('<td></td>').text(p);
 					var total;
-					$('.qtyy').keyup(function(){
+					$('#qtyy').keyup(function(){
  
-  					var qty = $('.qtyy').val();
+  					var qty = $('#qtyy').val();
   					console.log(qty);
 					p = ($($(this).parent().find(".price")).text())*qty;
 					});
@@ -244,23 +244,3 @@ function closeNav() {
           map: map
         });
       }
-// $('.selll-button').click(function (argument) {
-// 	$.ajax({
-// 		url: "http://acadprojects.com/py/fabricKart/sell",
-// 		type: "POST",
-// 		beforeSend: function (arg) {
-// 				arg.setRequestHeader("content-type", "application/json");
-// 			},
-// 			data: JSON.stringify({
-// 				"item_name":
-// 				 "brand":
-// 				 "gender":
-// 				 "size":
-// 				 "quantity":
-// 				 "item_category":
-// 				 "price":
-// 				 "image":
-// 				 "description":
-// 				 "sold_by":
-// 	})	
-// })
